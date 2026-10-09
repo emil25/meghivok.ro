@@ -1,0 +1,6 @@
+{
+  "name": "Meghívók.ro - Online Meghívó Készítő & Sablon Galéria",
+  "description": "Prémium online meghívók készítése és küldése esküvőre, születésnapra, keresztelőre és rendezvényekre interaktív RSVP kezelővel és sablon galériával.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

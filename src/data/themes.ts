@@ -1,0 +1,91 @@
+import { ColorScheme, FontOption } from '../types/invitation';
+
+export const COLOR_SCHEMES: ColorScheme[] = [
+  {
+    id: 'arany-pezsgo',
+    name: 'Pezsgő & Arany',
+    primary: '#B8860B', // Dark goldenrod
+    secondary: '#D4AF37',
+    background: '#FAF8F5',
+    surface: '#FFFFFF',
+    textPrimary: '#26221F',
+    textSecondary: '#6B635B',
+    border: '#E8E2D8',
+  },
+  {
+    id: 'zsalya-oliva',
+    name: 'Zsálya & Botanika',
+    primary: '#4A6B56',
+    secondary: '#8AA39B',
+    background: '#F6F8F5',
+    surface: '#FFFFFF',
+    textPrimary: '#1E2B22',
+    textSecondary: '#5A6E62',
+    border: '#DCE4DD',
+  },
+  {
+    id: 'ejjeli-navy',
+    name: 'Éjféli Kék & Csillag',
+    primary: '#E0B259',
+    secondary: '#94A3B8',
+    background: '#0B1325',
+    surface: '#131D35',
+    textPrimary: '#F8FAFC',
+    textSecondary: '#CBD5E1',
+    border: '#233254',
+  },
+  {
+    id: 'puder-rozsa',
+    name: 'Púder Rózsakvarc',
+    primary: '#A85A74',
+    secondary: '#DDA7B7',
+    background: '#FDF7F8',
+    surface: '#FFFFFF',
+    textPrimary: '#382229',
+    textSecondary: '#7A5B64',
+    border: '#F2DDE3',
+  },
+  {
+    id: 'monokrom-minimal',
+    name: 'Monokróm Elegancia',
+    primary: '#18181B',
+    secondary: '#71717A',
+    background: '#FAFAFA',
+    surface: '#FFFFFF',
+    textPrimary: '#09090B',
+    textSecondary: '#52525B',
+    border: '#E4E4E7',
+  },
+  {
+    id: 'terrakotta-bohem',
+    name: 'Bohém Terrakotta',
+    primary: '#A84B2C',
+    secondary: '#DF8D72',
+    background: '#FAF6F2',
+    surface: '#FFFFFF',
+    textPrimary: '#331F18',
+    textSecondary: '#6E554D',
+    border: '#ECDCD3',
+  },
+];
+
+export const FONT_OPTIONS: FontOption[] = [
+  {
+    id: 'klasszikus-szerif',
+    name: 'Klasszikus Szerif (Cormorant)',
+    titleClass: 'font-serif tracking-normal',
+    bodyClass: 'font-sans',
+  },
+  {
+    id: 'romantikus-script',
+    name: 'Kézírásos Romantika',
+    titleClass: 'font-script tracking-wide',
+    bodyClass: 'font-serif',
+  },
+  {
+    id: 'modern-sans',
+    name: 'Modern Kifinomult Sans',
+    titleClass: 'font-sans font-light tracking-wider uppercase',
+    bodyClass: 'font-sans',
+  },
+];
